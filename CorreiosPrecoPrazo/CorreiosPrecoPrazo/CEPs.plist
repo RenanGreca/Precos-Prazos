@@ -42,7 +42,7 @@
 		<key>Capital</key>
 		<string>60160150</string>
 		<key>Interior</key>
-		<string>63900000</string>
+		<string>63870000</string>
 	</dict>
 	<key>DF</key>
 	<dict>
@@ -112,7 +112,7 @@
 		<key>Capital</key>
 		<string>50060230</string>
 		<key>Interior</key>
-		<string>55190000</string>
+		<string>55030280</string>
 	</dict>
 	<key>PI</key>
 	<dict>
@@ -145,9 +145,9 @@
 	<key>RO</key>
 	<dict>
 		<key>Capital</key>
-		<string>78902000</string>
+		<string>76820408</string>
 		<key>Interior</key>
-		<string>76863000</string>
+		<string>76940000</string>
 	</dict>
 	<key>RS</key>
 	<dict>
@@ -187,9 +187,9 @@
 	<key>TO</key>
 	<dict>
 		<key>Capital</key>
-		<string>77000000</string>
+		<string>77022320</string>
 		<key>Interior</key>
-		<string>77455000</string>
+		<string>77403010</string>
 	</dict>
 </dict>
 </plist>

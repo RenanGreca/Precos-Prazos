@@ -59,11 +59,11 @@
 			children = (
 				3FAB0172207E3B4D00A6FFF4 /* AppDelegate.swift */,
 				3FAB0174207E3B4D00A6FFF4 /* ViewController.swift */,
+				3FAB0182207E3B7D00A6FFF4 /* PriceAndDeadlineParser.swift */,
 				3FAB0176207E3B5300A6FFF4 /* Assets.xcassets */,
 				3FAB0178207E3B5300A6FFF4 /* Main.storyboard */,
 				3FAB017B207E3B5300A6FFF4 /* Info.plist */,
 				3FAB017C207E3B5300A6FFF4 /* CorreiosPrecoPrazo.entitlements */,
-				3FAB0182207E3B7D00A6FFF4 /* PriceAndDeadlineParser.swift */,
 				3FAB0184207E3BDF00A6FFF4 /* CEPs.plist */,
 			);
 			path = CorreiosPrecoPrazo;
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FAB016E207E3B4D00A6FFF4 /* CorreiosPrecoPrazo */ = {
+		3FAB016E207E3B4D00A6FFF4 /* Calculadora de Frete */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FAB017F207E3B5300A6FFF4 /* Build configuration list for PBXNativeTarget "CorreiosPrecoPrazo" */;
+			buildConfigurationList = 3FAB017F207E3B5300A6FFF4 /* Build configuration list for PBXNativeTarget "Calculadora de Frete" */;
 			buildPhases = (
 				3FAB016B207E3B4D00A6FFF4 /* Sources */,
 				3FAB016C207E3B4D00A6FFF4 /* Frameworks */,
@@ -84,7 +84,7 @@
 			);
 			dependencies = (
 			);
-			name = CorreiosPrecoPrazo;
+			name = "Calculadora de Frete";
 			productName = CorreiosPrecoPrazo;
 			productReference = 3FAB016F207E3B4D00A6FFF4 /* CorreiosPrecoPrazo.app */;
 			productType = "com.apple.product-type.application";
@@ -101,6 +101,11 @@
 				TargetAttributes = {
 					3FAB016E207E3B4D00A6FFF4 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -117,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FAB016E207E3B4D00A6FFF4 /* CorreiosPrecoPrazo */,
+				3FAB016E207E3B4D00A6FFF4 /* Calculadora de Frete */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FAB017F207E3B5300A6FFF4 /* Build configuration list for PBXNativeTarget "CorreiosPrecoPrazo" */ = {
+		3FAB017F207E3B5300A6FFF4 /* Build configuration list for PBXNativeTarget "Calculadora de Frete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FAB0180207E3B5300A6FFF4 /* Debug */,

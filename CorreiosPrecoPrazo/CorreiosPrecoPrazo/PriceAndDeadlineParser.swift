@@ -39,24 +39,23 @@ class PriceAndDeadlineParser: NSObject, XMLParserDelegate {
         }
         
         
-        let url = """
-                    http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazo
-                    ?nCdEmpresa=%20
-                    &sDsSenha=%20
-                    &nCdServico=%2004510
-                    &sCepOrigem=\(originCEP)
-                    &sCepDestino=\(destinationCEP)
-                    &nVlPeso=\(weight)
-                    &nCdFormato=1
-                    &nVlComprimento=\(depth)
-                    &nVlAltura=\(height)
-                    &nVlLargura=\(width)
-                    &nVlDiametro=1
-                    &sCdMaoPropria=N
-                    &nVlValorDeclarado=100
-                    &sCdAvisoRecebimento=N
-                  """
+        var url = "http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazo"
+        url += "?nCdEmpresa=%20"
+        url += "&sDsSenha=%20"
+        url += "&nCdServico=%2004510"
+        url += "&sCepOrigem=\(originCEP)"
+        url += "&sCepDestino=\(destinationCEP)"
+        url += "&nVlPeso=\(weight)"
+        url += "&nCdFormato=1"
+        url += "&nVlComprimento=\(depth)"
+        url += "&nVlAltura=\(height)"
+        url += "&nVlLargura=\(width)"
+        url += "&nVlDiametro=1"
+        url += "&sCdMaoPropria=N"
+        url += "&nVlValorDeclarado=100"
+        url += "&sCdAvisoRecebimento=N"
         
+        print(url)
         return URL(string: url)
     }
     
